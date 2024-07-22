@@ -1,0 +1,48 @@
+/* Destop */
+@media screen and (max-width: 700px){
+    body {
+        background-color: aquamarine;
+    }
+    .title {
+        height:1em;
+        width: 1em;
+        border: solid rgb(53, 241, 53);
+        margin: 5px;
+    }
+
+    .huntSD {
+        display: none;
+    }
+
+    .skyrim{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 400px){
+    body {
+        background-color: rgb(245, 245, 107);
+    }
+
+    .title {
+        height:1em;
+        width: 1em;
+        border: solid;
+        margin: 5px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 200px){
+    body {
+        background-color: rgb(247, 163, 68);
+    }
+    .title {
+        height:1em;
+        width: 1em;
+        border: solid;
+        margin: 5px;
+    }
+}
+
